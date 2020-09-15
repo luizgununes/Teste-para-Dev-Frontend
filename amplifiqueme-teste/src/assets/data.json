@@ -3,7 +3,7 @@
     "_id": "5f2b08fe19c43a1348501fa2",
     "customer_name": "Savannah Miles",
     "customer_id": "5e8be47133e7bc000e88b6cd",
-    "customer_picture":"https://github.com/Amplifique-me/Teste-para-Dev-Frontend/blob/master/avatar/avatar.png?raw=true",
+    "customer_picture": "https://github.com/Amplifique-me/Teste-para-Dev-Frontend/blob/master/avatar/avatar.png?raw=true",
     "code": "QUGFL7LA",
     "created_at": "2020-08-18T19:14:10.231Z",
     "total_shares": 22,
@@ -20,11 +20,11 @@
     "reward_redeemed": 8,
     "reward_pending": 22
   },
-    {
+  {
     "_id": "5f2b08fe19c43a1348501fa2",
     "customer_name": "Jerome Bell",
     "customer_id": "5e8be47133e7bc000e88b6cd",
-    "customer_picture":"https://github.com/Amplifique-me/Teste-para-Dev-Frontend/blob/master/avatar/avatar-2.png?raw=true",
+    "customer_picture": "https://github.com/Amplifique-me/Teste-para-Dev-Frontend/blob/master/avatar/avatar-2.png?raw=true",
     "code": "QUGFL7LA",
     "created_at": "2020-08-18T19:14:10.231Z",
     "total_shares": 22,
@@ -41,11 +41,11 @@
     "reward_redeemed": 8,
     "reward_pending": 22
   },
-    {
+  {
     "_id": "5f2b08fe19c43a1348501fa2",
     "customer_name": "Dianne Russell",
     "customer_id": "5e8be47133e7bc000e88b6cd",
-    "customer_picture":"https://github.com/Amplifique-me/Teste-para-Dev-Frontend/blob/master/avatar/avatar-3.png?raw=true",
+    "customer_picture": "https://github.com/Amplifique-me/Teste-para-Dev-Frontend/blob/master/avatar/avatar-3.png?raw=true",
     "code": "QUGFL7LA",
     "created_at": "2020-08-18T19:14:10.231Z",
     "total_shares": 22,
@@ -62,11 +62,11 @@
     "reward_redeemed": 8,
     "reward_pending": 22
   },
-    {
+  {
     "_id": "5f2b08fe19c43a1348501fa2",
     "customer_name": "Darrell Steward",
     "customer_id": "5e8be47133e7bc000e88b6cd",
-    "customer_picture":"https://github.com/Amplifique-me/Teste-para-Dev-Frontend/blob/master/avatar/avatar-4.png?raw=true",
+    "customer_picture": "https://github.com/Amplifique-me/Teste-para-Dev-Frontend/blob/master/avatar/avatar-4.png?raw=true",
     "code": "QUGFL7LA",
     "created_at": "2020-08-18T19:14:10.231Z",
     "total_shares": 22,
@@ -83,11 +83,11 @@
     "reward_redeemed": 8,
     "reward_pending": 22
   },
-    {
+  {
     "_id": "5f2b08fe19c43a1348501fa2",
     "customer_name": "Guy Hawkins",
     "customer_id": "5e8be47133e7bc000e88b6cd",
-    "customer_picture":"https://github.com/Amplifique-me/Teste-para-Dev-Frontend/blob/master/avatar/avatar-5.png?raw=true",
+    "customer_picture": "https://github.com/Amplifique-me/Teste-para-Dev-Frontend/blob/master/avatar/avatar-5.png?raw=true",
     "code": "QUGFL7LA",
     "created_at": "2020-08-18T19:14:10.231Z",
     "total_shares": 22,
@@ -103,6 +103,5 @@
     "referral_pending": 22,
     "reward_redeemed": 8,
     "reward_pending": 22
-  },
-  
+  }
 ]
