@@ -1,46 +1,27 @@
-# Teste para Dev Frontend
+# AmplifiquemeTeste
 
-## Instruções
-Você deve criar um fork deste projeto, e desenvolver em cima do seu fork. Use o README principal do seu repositório para nos contar como foi resolver seu teste e as instruções de como rodar seu projeto.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
 
-Ao término do teste, é só commitar e avisar o nosso CTO pelo email robson@amplifique.me
+## Development server
 
-Este é um teste técnico, porém não existe apenas um jeito certo de fazer as coisas. Queremos conhecer o seu jeito de codar!
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Objetivo
-Seu objetivo nesse teste é utilizar Angular (8 ou +) para construir um componente isolado que já utilizamos na Amplifique.me, baseando-se no design disponibilizado abaixo. Esse componente tem uma interação (click) que abre um Popover para mostrar dados de um contato de forma mais completa.
+## Code scaffolding
 
-[Design](https://www.figma.com/file/CdLkgOUfetpRynmffyCzBL/Teste-para-Frontends-Amplifique.me?node-id=0%3A1)
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Existe um arquivo chamado data.json neste repositório, que é um Mock do retorno de uma API. Você deve utilizá-lo para popular os campos.
+## Build
 
-### O que nós esperamos do seu teste
-* Ver na solução a utilização do Angular
-* Ver a utilização de dependency managers (npm, yarn)
-* CSS3/4 - Com um pre processador de CSS (a escolha fica a seu critério, mas aqui utilizamos SASS)
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-### O que nós ficaríamos felizes de ver em seu teste
-* Layout responsivo
-* Alguma metodologia para definição e organização do seu código CSS
+## Running unit tests
 
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-### O que nos impressionaria
-* Aplicação de animações em css quando possível e tome cuidado com a performance da sua animação :)
-* Ver o código rodando live (Bucket estático S3, Heroku, Firebase Hosting)
+## Running end-to-end tests
 
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-### O que nós não gostaríamos
-* Descobrir que não foi você quem fez seu teste
-* Ver commits grandes, sem muita explicação nas mensagens em seu repositório
-* Encontrar um commit com as dependências do NPM
+## Further help
 
-### Prazo de entrega
-O prazo de entrega é Terça-Feira (01/09/20)
-
-Para auxiliar: Bind do retorno da API e a Table
-
-| # | NOME | INDICAÇÕES  | MILESTONES | CLIQUES/COMP. |
-| :---: |:----:| :-------------------:| :-------------------:| :-------------------:|
-| `index` | `customer_picture` `customer_name` `created_at` | `referral_confirmed`/ `referral_pending` | `reward_redeemed` / `reward_pending` | `total_link_click` / `total_shares` |
-
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
