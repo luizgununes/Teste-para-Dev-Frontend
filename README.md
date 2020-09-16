@@ -1,27 +1,25 @@
-# AmplifiquemeTeste
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
+# Teste para Dev Frontend
 
-## Development server
+Gostei do teste, um dos mais interessantes que já fiz na área de front-end, espero que gostem do resultado também! E ah, obrigado pela oportunidade!
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Quaisquer dúvidas, estou à disposição.
 
-## Code scaffolding
+## Observações
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**Link da Aplicação no Heroku:** https://amplifiqueme-teste.herokuapp.com/
 
-## Build
+* **Versão do Angular:** 8 (é a que tenho instalado globalmente por utilizar no dia-a-dia)
+* **Depency Manager:** NPM (porque vem junto com o Node e não vejo motivos pra utilizar o yarn, ainda)
+* **Framework de Estilo:** Bootstrap 4 (utilizado apenas no popover, gosto de fazer na unha mesmo, hehe)
+* **Bibliotecas de Terceiros:** ngx-smart-popover (utilizei ele por permitir um controle maior do conteúdo, muito além de apenas textos como outros popovers simples)
+* **Pré-processador de CSS:** Less (é o que utilizo no dia-a-dia, apesar de conhecer um pouco dos outros também)
+* **Hospedagem:** Heroku (porque eu já pago o serviço e acho prático)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* Desenvolvi o teste nos intervalos do trabalho e no tempo livre, por isso os commits possuem um grande intervalo de tempo.
+* A aplicação está mobile-friendly, pelo menos até onde eu fui capaz de testar.
+* Fui o mais fiel que pude ao protótipo disponibilizado.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Instruções
+* Instalar as dependências utilizando `npm install` no diretório raíz.
+* Rodar `ng serve --open` para iniciar a aplicação em uma nova aba na porta 4200.
