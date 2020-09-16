@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-participantes-detalhes',
   templateUrl: './participantes-detalhes.component.html',
-  styleUrls: ['./participantes-detalhes.component.less']
+  styleUrls: ['./participantes-detalhes.component.less'],
 })
+
 export class ParticipantesDetalhesComponent implements OnInit {
 
-  constructor() { }
+  @Input() participante = null;
+  @Input() idParticipante = null;
 
-  ngOnInit() {
-  }
+  constructor() {}
 
+  ngOnInit() {}
 }

@@ -1,3 +1,76 @@
-<p>
-  participantes works!
-</p>
+<div>
+  <h4>Participantes do Programa</h4>
+  <div id="card">
+    <div id="participantes">
+      <table>
+        <thead>
+          <tr id="titulo">
+            <th scope="col">#</th>
+            <th scope="col"></th>
+            <th scope="col">NOME</th>
+            <th scope="col">INDICAÇÕES</th>
+            <th scope="col">MILESTONES</th>
+            <th scope="col">CLIQUES/COMP.</th>
+          </tr>
+        </thead>
+        <tbody id="conteudo-tabela">
+          <tr
+            class="item"
+            *ngFor="let participante of participantes; let ind = index"
+            (click)="montaPopover(ind)"
+            [popoverOnHover]="false"
+            [popover]="detalhesParticipante"
+            popoverPlacement="right"
+          >
+            <td class="indice">{{ ind + 1 }}</td>
+            <td><img src="{{ participante.customer_picture }}" /></td>
+            <td class="nome">
+              {{ participante.customer_name }}
+              <br />
+              <span class="data">
+                {{ participante.created_at | date: "dd/MM/yyyy HH:mm":"UTC" }}
+              </span>
+            </td>
+            <td>
+              <span class="indicacoes fonte-primaria badge-primaria">
+                {{ participante.referral_confirmed }} /
+                {{ participante.referral_pending }}
+              </span>
+            </td>
+            <td>
+              <span class="milestones fonte-secundaria badge-secundaria">
+                {{ participante.reward_redeemed }} /
+                {{ participante.reward_pending }}
+              </span>
+            </td>
+            <td>
+              <span class="cliques fonte-terciaria badge-terciaria">
+                {{ participante.total_link_click }} /
+                {{ participante.total_shares }}
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <popover-content
+      #detalhesParticipante
+      placement="auto"
+      [closeOnClickOutside]="true"
+      [closeOnMouseOutside]="false"
+    >
+      <div
+        *ngIf="participante == null; then popoverVazio; else popoverPreenchido"
+      ></div>
+
+      <ng-template #popoverVazio>Não há dados para mostrar.</ng-template>
+
+      <ng-template #popoverPreenchido>
+        <app-participantes-detalhes
+          [participante]="participante"
+          [idParticipante]="idParticipante"
+        ></app-participantes-detalhes>
+      </ng-template>
+    </popover-content>
+  </div>
+</div>
